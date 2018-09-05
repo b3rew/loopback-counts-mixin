@@ -5,7 +5,7 @@ fork from [exromany/loopback-counts-mixin](https://github.com/exromany/loopback-
 ## INSTALL
 
 ```
-npm install --save loopback-counts-mixin
+npm install --save loopback-custom-counts-mixin
 ```
 
 There are 2 ways to enable mixin:
@@ -19,7 +19,7 @@ In your server/server.js file add the following line before the boot(app, __dirn
 var app = module.exports = loopback();
 ...
 // Add Counts Mixin to loopback
-require('loopback-counts-mixin')(app);
+require('loopback-custom-counts-mixin')(app);
 
 boot(app, __dirname, function(err) {
   'use strict';
@@ -47,7 +47,7 @@ Add the mixins property to your server/model-config.json like the following:
     "mixins": [
       "loopback/common/mixins",
       "loopback/server/mixins",
-      "../node_modules/loopback-counts-mixin",
+      "../node_modules/loopback-custom-counts-mixin",
       "../common/mixins",
       "./mixins"
     ]
