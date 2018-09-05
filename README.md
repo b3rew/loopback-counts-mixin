@@ -1,10 +1,7 @@
-# No longer maintained, sorry
-
----
-
-# loopback-counts-mixin
+# loopback-custom-counts-mixin
 A mixin to enable get count of related models for a loopback Model.
 
+fork from [exromany/loopback-counts-mixin](https://github.com/exromany/loopback-counts-mixin) to accommodate [b3rew/loopback-row-count-mixin](https://github.com/b3rew/loopback-row-count-mixin)
 ## INSTALL
 
 ```

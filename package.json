@@ -1,6 +1,6 @@
 {
-  "name": "loopback-counts-mixin",
-  "version": "1.0.1",
+  "name": "loopback-custom-counts-mixin",
+  "version": "1.0.2",
   "description": "A mixin to enable get count of related models for a loopback Model.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exromany/loopback-counts-mixin.git"
+    "url": "https://github.com/b3rew/loopback-counts-mixin.git"
   },
   "keywords": [
     "loopback",
@@ -17,12 +17,12 @@
     "relation",
     "count"
   ],
-  "author": "exromany <exromany@gmail.com>",
+  "author": "b3rew <brkt13@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exromany/loopback-counts-mixin/issues"
+    "url": "https://github.com/b3rew/loopback-counts-mixin/issues"
   },
-  "homepage": "https://github.com/exromany/loopback-counts-mixin#readme",
+  "homepage": "https://github.com/b3rew/loopback-counts-mixin#readme",
   "devDependencies": {
     "eslint": "^1.6.0"
   }
